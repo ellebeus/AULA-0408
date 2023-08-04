@@ -7,11 +7,17 @@ header{
     width: 250px;
     margin-left: 5%;
 }
-.menu a {
+.menu a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     float: right;
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    padding: 14px 16px;
+    padding-top: 50px;
+    padding-left: 7px;
   }
+.menu a:hover{
+    color: #25a55f;
+}
