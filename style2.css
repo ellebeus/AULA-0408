@@ -1,0 +1,21 @@
+header{
+    padding: 40px;
+}
+.logo{
+    width: 120px;
+    margin-left: 5%;
+}
+.menu a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    padding-top: 55px;
+    padding-left: 10px;
+  }
+.menu a:hover{
+    color: #108f49;
+}
