@@ -1,10 +1,5 @@
-header{
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-}
 .logo{
-    width: 250px;
+    width: 220px;
     margin-left: 5%;
 }
 .menu a{
@@ -21,3 +16,13 @@ header{
 .menu a:hover{
     color: #25a55f;
 }
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
