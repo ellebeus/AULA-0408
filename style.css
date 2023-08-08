@@ -75,7 +75,9 @@ main{
 }
 
 .contato {
-  text-align: left;
+  font-family: 'Belanosima';
+  font-size: 25px;
+  text-align: center;
   padding-left: 50px;
   padding-bottom: 50px;
 }
