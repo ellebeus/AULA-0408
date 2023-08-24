@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> EcoBio | Galeria </title>
-    <link rel="stylesheet" href="galeria-style.css">
+    <link rel="stylesheet" href="style6.css">
     <link href='https://fonts.googleapis.com/css?family=Belanosima' rel='stylesheet'>
+    <link href="script.js">
 </head>
 <body>
     <div class="menu">
         <a href="galeria.html">Galeria de fotos</a>
-        <a href="">Novidades</a>
-        <a href="">Sustentabilidade</a>
+        <a href="novidades.html">Novidades</a>
+        <a href="sustentabilidade.html">Sustentabilidade</a>
         <a href="projetos.html">Projetos</a> 
         <a href="sobre.html">Sobre</a>
         <a href="index.html">Início</a>
@@ -20,7 +21,67 @@
         <img class="logo" src="logo.png">
     </header>
     <main>
+      <div class="row">
+        <div class="column">
+          <img src="terrario.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="terrario2.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="terrario3.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="terrario4.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+      </div>
 
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+      
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="terrario.png" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="terrario2.png" style="width:100%">
+          </div>
+      
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="terrario3.png" style="width:100%">
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="terrario4.png" style="width:100%">
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+
+          <div class="column">
+            <img class="demo cursor" src="terrario.png" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="terrario2.png" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="terrario3.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="terrario4.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+          </div>
+        </div>
+      </div>
+  <br>
+  <br>
     </main>
     <br>
     <footer>

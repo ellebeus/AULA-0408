@@ -36,7 +36,7 @@ main{
     color: black; 
   }
 .dica{
-   background-color: #48a66f;
+   background-color:#66976f;
    font-family: 'Belanosima';font-size: 20px;
    text-align: center;
    padding-left: 50px;
@@ -92,6 +92,6 @@ main{
   padding-left: 50px;
 }
 .contato p{
-  font-size: 15px;
+  font-size: 17px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
