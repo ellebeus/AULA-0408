@@ -37,10 +37,24 @@
     text-align: center;
     padding-bottom: 50px;
  }
+ .saida{
+  background-color: white;
+  color: black;
+  padding: 30px;
+  font-family: 'Belanosima';
+  font-size: 25px;
+  text-align: left;
+  padding-left: 95px;
+  padding-bottom: 50px;
+}
+.saida p{
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
  .terrario{
   color: black;
   height:400px;
-  background-color:white;
+  background-color:#66976f;
   padding: 30px;
   font-family: 'Belanosima';
   font-size: 25px;
@@ -52,8 +66,8 @@
   font-size: 17px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.saida{
-  background-color: #66976f;
+.sabão{
+  background-color:white;
   color: black;
   padding: 30px;
   font-family: 'Belanosima';
@@ -62,7 +76,7 @@
   padding-left: 95px;
   padding-bottom: 50px;
 }
-.saida p{
+.sabão p{
   font-size: 17px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
